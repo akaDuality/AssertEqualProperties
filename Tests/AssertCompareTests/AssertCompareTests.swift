@@ -2,14 +2,17 @@ import XCTest
 @testable import AssertCompare
 
 final class AssertCompareTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(AssertCompare().text, "Hello, World!")
-    }
+    // Uncomment to see in action
+//    func testExample() {
+//
+//        let expected = TestStruct(name: "Mikhail", day: "1")
+//        let actual = TestStruct(name: "Mikhail Rubanov", day: "1")
+//
+//        assertEqual(expected: expected, actual: actual)
+//    }
+}
 
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+struct TestStruct: Equatable {
+    let name: String
+    let day: String
 }
