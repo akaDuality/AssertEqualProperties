@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target = "10.0"
     spec.swift_version = '5.0'
 
-    spec.source_files  = 'Sources/**/*.{swift}'
+    spec.source_files  = 'Sources/**/*.swift'
 
     spec.frameworks = 'Foundation', 'XCTest'
 end
