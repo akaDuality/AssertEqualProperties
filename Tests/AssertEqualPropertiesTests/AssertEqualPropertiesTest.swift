@@ -1,14 +1,14 @@
 import XCTest
-@testable import AssertCompare
+@testable import AssertEqualProperties
 
-final class AssertCompareTests: XCTestCase {
+final class AssertEqualPropertiesTests: XCTestCase {
     // Uncomment to see in action
 //    func testExample() {
 //
 //        let expected = TestStruct(name: "Mikhail", day: "1")
 //        let actual = TestStruct(name: "Mikhail Rubanov", day: "1")
 //
-//        assertEqual(expected: expected, actual: actual)
+//        AssertEqualProperties(expected: expected, actual: actual)
 //    }
 }
 

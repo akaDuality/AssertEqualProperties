@@ -1,4 +1,4 @@
-# AssertCompare
+# AssertEqualProperties
 
 Assert for XCTests with detail output. Compare to objects proprty by property, show only difference, not whole description. 
 

@@ -1,7 +1,7 @@
 import Combine
 import XCTest
 
-@testable import AssertCompare
+@testable import AssertEqualProperties
 
 final class DebugTests: XCTestCase {
   func testCollection() {

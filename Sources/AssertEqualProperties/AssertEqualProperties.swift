@@ -7,7 +7,7 @@
 
 import XCTest
 
-public func assertEqual<T>(
+public func AssertEqualProperties<T>(
     expected: T,
     actual: T,
     file: StaticString = #file,
