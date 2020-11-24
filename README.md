@@ -4,4 +4,4 @@ Assert for XCTests with detail output. Compare two objects proprty by property, 
 
 Code is got from https://github.com/pointfreeco/swift-composable-architecture
 
-![Sample](https://github.com/akaDuality/AssertEqualProperties/blob/main/1pbfeitricsu0cx6bghv2-chpco.png)
+![Sample](https://github.com/akaDuality/AssertEqualProperties/blob/main/SampleImage.png)
